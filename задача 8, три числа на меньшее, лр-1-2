@@ -1,0 +1,14 @@
+program trichislanaimenshee;
+var a,b,c,d:integer;
+begin
+  writeln('Введите первое число ');
+  readln(a);
+  writeln('Введите второе число ');
+  readln(b);
+  writeln('Введите третье число ');
+  readln(c);
+  d:=a;
+  if b<d then d:=b;
+  if c<d then d:=c;
+  writeln('Наименьшее число ', d);
+end.
