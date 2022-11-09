@@ -1,0 +1,11 @@
+program treugolnic;
+var a,b,c:integer;
+ 
+begin
+  write('Введите стороны треугольника ABC:');
+  read(a,b,c);
+  if (c<a+b) and (b<a+c) and (a<b+c) then
+    writeln('Треугольник со сторанами ',a,' ',b,' ',c,' существует')
+  else writeln('Треугольник с указанными сторонами не существует');
+    
+end.
