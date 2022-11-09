@@ -1,0 +1,17 @@
+program chisla;
+var a,b,c,d,e:integer;
+begin
+  writeln('введите число',a);
+  readln(a);
+  b:=mod(a,10);
+  a:=div(a,10);
+  c:=mod(a,10);
+  a:=div(a,10);
+  d:=mod(a,10);
+  a:=div(a,10);
+  e:=mod(a,10);
+  a:=div(a,10);
+  e:=a;
+  writeln('сумма цирф числа =', b+c+d+e);
+  writeln('произведение цифр числа =', b*c*d*e);
+end.
