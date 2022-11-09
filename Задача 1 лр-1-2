@@ -1,0 +1,11 @@
+program gipotenuza;
+var a,b,c:real;
+begin
+  writeln(' Введите первый катет ');
+  readln(a);
+  writeln(' Введите второй катет ');
+  readln(b);
+  c:=0;
+  c:=sqrt(a)*sqrt(b);
+  writeln(' Гипотенуза = ', c);
+end.
