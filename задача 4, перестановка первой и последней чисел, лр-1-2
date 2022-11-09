@@ -1,0 +1,16 @@
+program perestanovka;
+var a,b,c,d,e:integer;
+begin
+  writeln('введите число a<=32767');
+  readln(a);
+ d:=a;
+ e:=1;
+ c:=a mod 10; {последняя цифра введенного числа}
+ while a>=10 do
+   begin
+   e:=e*10;
+   a:=a div 10;
+   b:=d-a*e-c+a+a*e;
+   writeln(' число после перестановки цифр ', a);
+   end;
+end.
