@@ -1,0 +1,17 @@
+program kopeykirubli;
+var a,b,c,d,e,f:integer;
+begin
+  writeln('Введите стоимость товара ');
+  readln(a);
+  writeln('Введите стоимость товара с копейками ');
+  readln(b);
+  writeln('Введите плату за товар ');
+  readln(c);
+  writeln('Введите плату за товар с копейками ');
+  readln(d);
+  e:=0;
+  f:=0;
+  e:=c-a;
+  f:=100-d;
+  writeln('Сдача с оплаты товара = ' , e,' рублей ' , f,' копеек ');
+end.
