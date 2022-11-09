@@ -1,0 +1,12 @@
+program chetnoe_i_ntchetnoe;
+var a,b,c:integer;
+begin
+readln(a);
+readln(b);
+readln(c);
+if((a=0)or(b=0)or(c=0))then writeln('нет')
+else if(((a mod 2=0)or(b mod 2=0)or(c mod 2=0))and((a mod 2<>0)or(b mod 2<>0)or(c mod 2<>0)))
+then writeln('есть')
+else writeln('нет');
+readln;
+end.
