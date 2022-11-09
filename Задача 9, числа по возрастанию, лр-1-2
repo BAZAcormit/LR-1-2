@@ -1,0 +1,24 @@
+program vivestipowozrastaniy;
+var a,b,c:integer;
+begin
+  writeln('Введите первое число ');
+  readln(a);
+  writeln('Введите второе число ');
+  readln(b);
+  writeln('Введите третье число ');
+  readln(c);
+  if ((a<b) and (a<b) and (b<c)) then
+    write(a,' ',b,' ',c)
+  else
+    if((b<a) and (b<c) and (a<c)) then
+      write(b,' ',a,' ',c)
+    else
+      if((c<a) and (c<b) and (a<b)) then
+        write(c,' ',a,' ',b)
+      else
+        if((b<a) and (b<c) and (a<c)) then
+          write(b,' ',c,' ',a)
+        else
+          write(c,' ',b,' ',a);
+        
+end.
