@@ -1,0 +1,19 @@
+program kolichestvopoloshit;
+var a,b,c,d:real;
+begin
+  d:=0;
+  writeln('введите первое число');
+  readln(a);
+  writeln('введите второе число');
+  readln(b);
+  writeln('введите третье число');
+  readln(c);
+  if a>0 then
+    d:=d+1;
+  if b>0 then
+    d:=d+1;
+  if c>0 then
+    d:=d+1;
+  writeln('количество положительных чисел ',d);
+  
+end.
