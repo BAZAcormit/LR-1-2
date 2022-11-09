@@ -1,0 +1,8 @@
+program russkieidutdomoy;
+var s,l:real;
+begin
+  writeln('vvedite chislo l:');
+  readln(l);
+  s:=sqr(l)/(4*pi);
+  write(s);
+end.
