@@ -1,0 +1,9 @@
+program posledneechislo;
+var a,b:real;
+begin
+  writeln('введите число',a);
+  readln(a);
+  b:=frac(a/10);
+  writeln((b*10):0:0)
+  
+end.
